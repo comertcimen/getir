@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+.purple {
+  color: #5d3ebc;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: baseline;
+  margin-top: 5px;
+}
+
+#search {
+  border: none;
+  outline: none;
+  width: 13rem;
+}
+
+.btn-search,
+.btn-search:hover {
+  background: transparent;
+  color: #524795;
+}
+
+.wrapper {
+  border-radius: 10px;
+  background: #f4f4f6;
+  margin-left: 3rem;
+}
+
+input {
+  background: transparent;
+  padding-left: 16px;
+}
+
+.fa-search {
+  color: #524795;
+}
+
+#navbarDropdown,
+#pp {
+  font-weight: 700;
+}
+
+#selam {
+  color: rgba(0, 0, 0, 0.2);
+}
+
+#getiryemek {
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.heart {
+  width: 40px;
+  height: 40px;
+  background: #fbf4ca;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffd10c;
+  padding: 4px;
+}
+
+.bag {
+  width: 40px;
+  height: 40px;
+  border-radius: 8px;
+  background: #f4f4f6;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #5c4d9f;
+  padding: 4px;
+  z-index: -1;
+}
+
+.counter {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background: #5c4d9f;
+  box-shadow: 0px 2px 8px -2px #c1bade;
+  color: #fff;
+  text-align: center;
+  position: relative;
+  top: -50px;
+  left: 25px;
+}
+
+#head {
+  /* background: #fef5cc; */
+  background: url("../img/bg.svg");
+  background-size: cover;
+  border-radius: 28px;
+}
+
+.divider-yellow {
+  border-bottom: 3px solid #f9d92c;
+  width: 3rem;
+}
+
+.desc {
+  font-family: "Lato", sans-serif;
+  font-weight: 500;
+}
+
+.card {
+  box-shadow: 0px 2px 8px -2px #c1bade;
+  border: none;
+  border-radius: 10px;
+  padding: 15px 20px;
+  display: flex;
+  flex-flow: nowrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.card i,
+.card-right {
+  color: #524795;
+  font-weight: 600;
+}
+
+.divider-card {
+  width: 0;
+  height: 24px;
+  margin: 0 10px;
+  padding: 0;
+  border: 1px solid #ceccd6;
+}
+
+#truck {
+  transform: scaleX(-1);
+}
+
+#head-img {
+  background: url("../img/illustration.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-x: right;
+}
+
+#bottom {
+  margin-top: 10rem;
+}
+
+.divider-kategori {
+  width: 24px;
+  height: 0;
+  border: 3px solid #5d3ebc;
+  border-radius: 5px;
+  position: relative;
+  left: 50%;
+  transform: translate(-50%);
+}
+
+.outside {
+  background: #f9f9fa;
+  border-radius: 30px;
+}
+
+.inside {
+  position: relative;
+  top: -6rem;
+  margin-top: 10rem;
+}
+
+.rectangle {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px -2px #c1bade;
+  border-radius: 40px;
+  width: 180px;
+  height: 180px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#kampanyalar {
+  margin-top: 10rem;
+}
+
+.kampanya-card {
+  background: #f9f9fa;
+  border-radius: 24px;
+  display: flex;
+  justify-content: space-around;
+  width: 28.125rem;
+  height: 12.5rem;
+}
+
+.kampanya-card-left {
+  display: flex;
+  text-align: center;
+  background: url("../img/stars.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position-y: 1rem;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+}
+
+#fiyat {
+  font-weight: 600;
+  font-size: 0.8rem;
+  text-decoration-line: line-through;
+}
+
+#fiyat2 {
+  font-weight: 600;
+  font-size: 1.25rem;
+}
+
+.kampanya-card-right {
+  display: flex;
+  text-align: center;
+  background: url("../img/kampanya-card-bg.svg");
+  flex-direction: column;
+  border-bottom-right-radius: 24px;
+  border-top-right-radius: 24px;
+  width: 50%;
+}
+
+#kampanya-card-right-text-1 {
+  color: #fff;
+}
+
+#kampanya-card-right-text-2 {
+  color: #ffd10d;
+}
+
+.arrows {
+  display: flex;
+  justify-content: center;
+}
+
+.arrow-left {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #ede9ff;
+  color: #5d3ebc;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.arrow-right {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #5d3ebc;
+  color: #ede9ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+#app {
+  border-radius: 40px;
+  background: #f4f4f6;
+  margin-top: 15rem;
+  margin-bottom: 15rem;
+}
+
+#app .row {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.markets {
+  display: flex;
+}
+
+.app-store,
+.google-play {
+  background: #ffffff;
+  box-shadow: 0px 2px 8px -2px #c1bade;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.app-left img {
+  position: absolute;
+  top: -9rem;
+}
+
+footer {
+  background: #fff5cc;
+}
+
+footer a {
+  text-decoration: none;
+  color: #494178;
+  font-weight: 600;
+}
+
+footer .line {
+  border-bottom: 1px solid #ffd733;
+}
+
+footer .row {
+  justify-content: center;
+}
+
+@media screen and (max-width: 1200px) {
+  #getiryemek {
+    border: none;
+  }
+  .counter {
+    top: 190px;
+    left: 65px;
+  }
+  .wrapper {
+    margin-left: 1rem;
+  }
+  .counter {
+    position: relative;
+    top: -50px;
+    left: 25px;
+  }
+
+  .app-left img {
+    top: -6rem;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .wrapper {
+    margin-left: 0;
+  }
+  #search {
+    width: 9rem;
+  }
+  #kampanya-card-right {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 300px) {
+  .wrapper {
+    margin-left: 0;
+  }
+  #search {
+    width: 9rem;
+  }
+  #kampanya-card-right {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+  .app-store,
+  .google-play {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card {
+    font-size: small;
+  }
+  .kampanya-card {
+    max-width: 90vw;
+  }
+  #kampanya-card-right {
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
+}
+
+@media screen and (max-width: 1200px) {
+}
+
+@media screen and (min-width: 1200px) {
+  #kampanya-card-right {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+
+  .app-store,
+  .google-play {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+}
